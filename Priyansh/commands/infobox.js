@@ -8,7 +8,7 @@ module.exports.config = {
   name: "infobox",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "𝐤𝐡𝐚𝐧 𝐬𝐚𝐡𝐚𝐛",
   description: "Xem thông tin box của bạn",
   commandCategory: "Thông tin",
   usages: "infobox",
@@ -72,7 +72,7 @@ module.exports.run = async function ({ api, event, args, Users }) {
   let idmem = threadInfo.participantIDs
   var idmemrd = idmem[Math.floor(Math.random() * threadMem)];
   var idmemrd1 = idmem[Math.floor(Math.random() * threadMem)];
-  let getAvatarOne = (await axios.get(`https://graph.facebook.com/${idad.id}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, { responseType: 'arraybuffer' })).data;
+  let getAvatarOne = (await axios.get(`https://graph.facebook.com/${idad.id}/picture -=?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, { responseType: 'arraybuffer' })).data;
   let getAvatarOne2 = (await axios.get(`https://graph.facebook.com/${idmemrd}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, { responseType: 'arraybuffer' })).data;
   let getAvatarOne3 = (await axios.get(`https://graph.facebook.com/${idmemrd1}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, { responseType: 'arraybuffer' })).data;
   let Avatar = (
