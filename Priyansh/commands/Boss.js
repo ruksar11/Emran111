@@ -14,7 +14,7 @@ module.exports.config = {
     cooldowns: 5,
 };
 
-const gif = "https://imgur.com/a/G7zQQw7";
+const gif = "https://i.imgur.com/hHKQMW8.jpg";
 const message = "KHAN SAHAB 😊♥️";
 
 module.exports.handleEvent = async function({ api, event, client, Users, __GLOBAL }) {
