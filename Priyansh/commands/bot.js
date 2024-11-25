@@ -135,7 +135,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️Me toh Andha Hu Dekh nhi sakta", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Assalam alaikum") || (event.body.toLowerCase() == "ram") || (event.body.toLowerCase() == "ram ram")) {
+   if ((event.body.toLowerCase() == "Assalam alaikum ") || (event.body.toLowerCase() == "ram") || (event.body.toLowerCase() == "ram ram")) {
     return api.sendMessage("️𝗪𝗔 𝗔𝗟𝗔𝗜𝗞𝗨𝗠 𝗔𝗦𝗦𝗟𝗔𝗠 😇", threadID);
    };
 
