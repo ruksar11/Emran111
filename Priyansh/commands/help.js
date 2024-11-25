@@ -2,7 +2,7 @@
 	name: "help",
 	version: "1.0.2",
 	hasPermssion: 0,
-	credits: "𝐤𝐡𝐚𝐧 𝐬𝐚𝐡𝐚𝐛",
+	credits: "𝐤𝐡𝐚𝐧 𝘀𝐚𝐡𝐚𝐛",
 	description: "Beginner's Guide",
 	commandCategory: "system",
 	usages: "[Tên module]",
