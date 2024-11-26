@@ -2,7 +2,7 @@ module.exports.config = {
   name: "dp",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "khan",
+  credits: "suheb",
   description: "Random 6-pack photos",
   commandCategory: "Random-IMG",
   usages: "dp",
@@ -18,7 +18,7 @@ module.exports.config = {
 module.exports.run = async({api,event,args,Users,Threads,Currencies}) => {
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
-const fs = global.nodemodule["fs-.extra"];
+const fs = global.nodemodule["fs-extra"];
     var link = [
 "https://i.imgur.com/aEnAJb7.jpeg",
 "https://i.imgur.com/EIUb4Pv.jpeg",
@@ -138,6 +138,6 @@ const fs = global.nodemodule["fs-.extra"];
 "https://i.imgur.com/koHoZJM.jpeg",
 "https://i.imgur.com/2rbphvz.jpeg"
      ];
-     var callback = () => api.sendMessage({body:`𝙂𝙞𝙛𝙩𝙚𝙙 𝘽𝙮 𝐬𝐮𝐡𝐞𝐛😍😁 -.-`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
+     var callback = () => api.sendMessage({body:`𝙂𝙞𝙛𝙩𝙚𝙙 𝘽𝙮 [𝐊𝐇𝐀𝐍]😍😁 -.-`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
-   }
+   };
