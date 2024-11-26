@@ -156,7 +156,7 @@ module.exports.run = async ({ api, event }) => {
       try {
         api.sendMessage(
           {
-            body: `𝙂𝙞𝙛𝙩𝙚𝙙 𝘽𝙮 𝐬𝐮𝐡𝐞𝐛😍😁 -.-`,
+            body: `𝙂𝙞𝙛𝙩𝙚𝙙 𝘽𝙮  𝐊𝐇𝐀𝐍 🥰🤗 -.-`,
             attachment: fs.createReadStream(imagePath),
           },
           event.threadID,
