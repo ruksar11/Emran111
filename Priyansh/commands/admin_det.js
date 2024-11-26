@@ -1,27 +1,44 @@
-const fs = require("fs");
+const request = require('request');
+const fs = require('fs');
+const path = require('path');
+
 module.exports.config = {
-  name: "admin2",
-  version: "1.0.1",
-  hasPermssion: 0,
-  credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩", 
-  description: "hihihihi",
-  commandCategory: "no prefix",
-  usages: "admin",
-    cooldowns: 5, 
+    name: "admin",
+    version: "1.0.1",
+    hasPermssion: 0,
+    credits: "SHANKAR SUMAN",
+    description: "no prefix",
+    usePrefix: false,
+    commandCategory: "No command marks needed",
+    usages: "Yo Yo",
+    cooldowns: 5,
 };
 
-module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
-  var { threadID, messageID } = event;
-  if (event.body.indexOf("ADMIN")==0 || event.body.indexOf("Admin")==0 || event.body.indexOf("/Admin")==0 || event.body.indexOf("#admin")==0) {
-    var msg = {
-        body: "🫅 𝐎𝐖𝐍𝐄𝐑 𝐏𝐑𝐎𝐅𝐈𝐋𝐄 🫅",
-        attachment: 
-fs.createReadStream(__dirname + `/noprefix/profile.png`)
-      }
-      api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🫅", event.messageID, (err) => {}, true)
-    }
-  }
-  module.exports.run = function({ api, event, client, __GLOBAL }) {
+const gif = "https://i.imgur.com/gQlwzoh.jpeg";
+const message = "   𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁" ;
 
-  }
+module.exports.handleEvent = async function({ api, event, client, Users, __GLOBAL }) {
+    var { threadID, messageID } = event;
+    const lowerCaseMessage = event.body.toLowerCase();
+
+    if (lowerCaseMessage.startsWith("Admin") || 
+        lowerCaseMessage.startsWith("admin") || 
+        lowerCaseMessage.startsWith("ADMIN")) { 
+
+        const downloadPath = path.join(__dirname, 'admin-Jpg-Images.jpg');
+
+        // Download image from Imgur
+        request(gif).pipe(fs.createWriteStream(downloadPath)).on('close', () => {
+            var msg = {
+                body: message,
+                attachment: fs.createReadStream(downloadPath)
+            };
+            api.sendMessage(msg, threadID, messageID);
+            api.setMessageReaction("🙆", event.messageID, (err) => {}, true);
+        });
+    }
+}
+
+module.exports.run = function({ api, event, client, __GLOBAL }) {
+
+}
