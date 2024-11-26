@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports.config = {
-    name: "admin",
+    name: "Admin",
     version: "1.0.1",
     hasPermssion: 0,
     credits: "SHANKAR SUMAN",
@@ -15,7 +15,7 @@ module.exports.config = {
 };
 
 const gif = "https://i.imgur.com/gQlwzoh.jpeg";
-const message = "   𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁" ;
+const message = "   𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐤𝐡𝐚𝐧 𝐬𝐚𝐡𝐚𝐛💋";
 
 module.exports.handleEvent = async function({ api, event, client, Users, __GLOBAL }) {
     var { threadID, messageID } = event;
