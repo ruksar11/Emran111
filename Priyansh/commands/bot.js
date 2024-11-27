@@ -3,7 +3,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝕂ℍ𝔸ℕ 𝕊𝔸ℍ𝔸𝔹 ",
+  credits: "𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁 ",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -56,7 +56,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Main Hun Naw Jaaneman ❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Khan bhai kese. Ho aap") || (event.body.toLowerCase() == "Khan bhai kha ho aap") || (event.body.toLowerCase() == "khan bhai zindabad") || (event.body.toLowerCase() == "Illıllı Aɭoŋɘ Illıllı")) {
+   if ((event.body.toLowerCase() == "Khan bhai kese. Ho aap") || (event.body.toLowerCase() == "Khan") || (event.body.toLowerCase() == "khan bhai zindabad") || (event.body.toLowerCase() == "Illıllı Aɭoŋɘ Illıllı")) {
      return api.sendMessage( "boss abhi buji hai apni wife ayesha ke sath  Me kiya kam hai mujhe btao mai bol dunga boss ko 😘",threadID);
 
        
@@ -64,10 +64,9 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
      return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞≛⃝𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/khan.sahab.official\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @KHAN SAHAB😇┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒✬✿╭┳✪✪╤───────────➛➣ ★�*★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝ 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁 𝐀𝐘𝐄𝐀𝐇𝐀 𝐊𝐄 𝐇𝐔𝐁𝐁𝐘🍀🍒💐)✪��★  ✬✿╭┳✪✪╤───────────➛➣   
-🕊️🌸
-...
-𝐀𝐆𝐀𝐑 𝐀𝐀𝐏𝐊𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐒𝐄 𝐊𝐔𝐂𝐇 𝐊𝐀𝐀𝐌 𝐇𝐀𝐈 𝐓𝐎 𝐌𝐀𝐈 𝐀𝐏𝐍𝐄 𝐁𝐎𝐒𝐒 𝐊𝐀 𝐍𝐌𝐁𝐀𝐑 𝐃𝐄𝐓𝐀 𝐇𝐔 𝐂𝐎𝐋𝐋 𝐊𝐀𝐑𝐋𝐈 𝐀𝐀𝐏 𝟗𝟐𝟓𝟑****𝟖𝟑👈 𝐘𝐄 𝐋𝐎 ✮┼💞┼✮", threadID);
+                  
+🌸✦✧✧✧✧✰🍒✬✿╭┳✪✪╤───────────➛➣ ★�*★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝ 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁 𝐀𝐘𝐄𝐀𝐇𝐀 𝐊𝐄 𝐇𝐔𝐁𝐁𝐘
+𝐀𝐆𝐀𝐑 𝐀𝐀𝐏𝐊𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐒𝐄 𝐊𝐔𝐂𝐇 𝐊𝐀𝐀𝐌 𝐇𝐀𝐈 𝐓𝐎 𝐌𝐀𝐈 𝐀𝐏𝐍𝐄 𝐁𝐎𝐒𝐒 𝐊𝐀 𝐍𝐌𝐁𝐀𝐑 𝐃𝐄𝐓𝐀 𝐇𝐔 𝐂𝐎𝐋𝐋 𝐊𝐀𝐑𝐋𝐄 𝐀𝐀𝐏 𝟗𝟐𝟓𝟑****𝟖𝟑👈 𝐘𝐄 𝐋𝐎 ┼💞┼", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
