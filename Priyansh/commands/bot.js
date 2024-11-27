@@ -56,14 +56,14 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Main Hun Naw Jaaneman ❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "khan bhai") || (event.body.toLowerCase() == "priyansh rajput") || (event.body.toLowerCase() == "khan") || (event.body.toLowerCase() == "khan")) {
+   if ((event.body.toLowerCase() == "Khan bhai kese. Ho aap") || (event.body.toLowerCase() == "Khan bhai kha ho aap") || (event.body.toLowerCase() == "khan bhai zindabad") || (event.body.toLowerCase() == "Illıllı Aɭoŋɘ Illıllı")) {
      return api.sendMessage( "boss abhi buji hai apni wife ayesha ke sath  Me kiya kam hai mujhe btao mai bol dunga boss ko 😘",threadID);
 
        
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝙆𝙃𝘼𝙉 𝙎𝘼𝙃𝘼𝘽☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/khan.sahab.official\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @khan sahab😇", threadID);
+     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝙆𝙃𝘼𝙉 𝙎𝘼𝙃𝘼𝘽☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/khan.sahab.official\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @khan sahab😇_AGAR AAP MERE BOSS KHAN SAHAB SE BAT KRNA CHAHTE HO TO MAI APNE BOSS KA NAMBAR DETA HU AAO COLL KRLO BOS KO 9253****83 YE LO👈", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
