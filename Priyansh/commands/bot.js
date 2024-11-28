@@ -87,7 +87,7 @@ if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "k
 
 
    if ((event.body.toLowerCase() == "❤️") || (event.body.toLowerCase() == "🙏")) {
-     return api.sendMessage("__🥰  𝐌𝐀𝐈𝐍 𝐓𝐎 𝐀𝐋𝐋𝐀𝐇 𝐊𝐀 𝐁𝐀𝐌𝐃𝐀 𝐇𝐔 𝐏𝐘𝐀𝐑 𝐒𝐄 𝐁𝐎𝐋𝐎 𝐀𝐒𝐋𝐀𝐌𝐔𝐀𝐋𝐈𝐊𝐔𝐌 😍 ❤️",threadID);
+     return api.sendMessage("__🥰  𝐌𝐀𝐈𝐍 𝐓𝐎 𝐀𝐋𝐋𝐀𝐇 𝐊𝐀 𝐁𝐀𝐌𝐃𝐀 𝐇𝐔 𝐏𝐘𝐀𝐑 𝐒𝐄 𝐁𝐎𝐋𝐎 𝐀𝐒𝐋𝐀𝐌𝐔𝐀𝐋𝐈𝐊𝐔𝐌 🤗 ❤️",threadID);
    };
 
 if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalamu alaikum")) {
