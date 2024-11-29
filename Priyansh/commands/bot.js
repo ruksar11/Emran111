@@ -64,7 +64,7 @@ if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "k
    };
 
    if ((event.body.toLowerCase() == "kya kar rahe ho") || (event.body.toLowerCase() == "KYA KAR RAHE HO") || (event.body.toLowerCase() == "kya kar rahe ho") || (event.body.toLowerCase() == "Kya kar raha hai bot")) {
-     return api.sendMessage( "🌸= 𝐊𝐮𝐂𝐡 𝐍𝐚𝐇𝐢 𝐌𝐞𝐑𝐢 𝐉𝐚𝐀𝐧 𝐀𝐩𝐏𝐬𝐄 𝐁𝐚𝐀𝐭 𝐊𝐚𝐑 𝐑𝐞𝐇𝐢 𝐇𝐮 _____😗😘",threadID);
+     return api.sendMessage("🌸= 𝐊𝐮𝐂𝐡 𝐍𝐚𝐇𝐢 𝐌𝐞𝐑𝐢 𝐉𝐚𝐀𝐧 𝐀𝐩𝐏𝐬𝐄 𝐁𝐚𝐀𝐭 𝐊𝐚𝐑 𝐑𝐞𝐇𝐢 𝐇𝐮 _____😗😘",threadID);
 
        
    };
