@@ -36,7 +36,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("wow Mubarak aaj apne barash kiya hai 😁😁😁😂", threadID);
    };
 
-    if ((event.body.toLowerCase() == "khan") || (event.body.toLowerCase() == "")) {
+    if ((event.body.toLowerCase() == "khan") || (event.body.toLowerCase() == "khan bhai")) {
      return api.sendMessage("BOSS BUSY HAI APNI WIFE AYESHA KE SATH MERE SE BAAT KARO😉😉", threadID);
    };
   
@@ -70,11 +70,11 @@ if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "k
    };
 
    if ((event.body.toLowerCase() == "bot hume kon banaya") || (event.body.toLowerCase() == "tume kis ne banaya hai")) {
-     return api.sendMessage(" 𝐊𝐡𝐚𝐧 𝐒𝐚𝐡𝐚𝐛 𝐍𝐞", threadID);
+     return api.sendMessage("𝐊𝐡𝐚𝐧 𝐒𝐚𝐡𝐚𝐛 𝐍𝐞", threadID);
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon hai")) {
-     return api.sendMessage(" 𝐊𝐡𝐚𝐧 𝐒𝐚𝐡𝐚𝐛 𝐇𝐚𝐢", threadID);
+     return api.sendMessage("𝐊𝐡𝐚𝐧 𝐒𝐚𝐡𝐚𝐛 𝐇𝐚𝐢", threadID);
    };
 
    if ((event.body.toLowerCase() == "uff") || (event.body.toLowerCase() == "UFF")) {
