@@ -3,7 +3,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "Mod by John Lester",
+  credits: "khan sahab",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -21,12 +21,12 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
-    if ((event.body.toLowerCase() == "KATTAR") || (event.body.toLowerCase() == "@Kattar Thakurain")) {
-     return api.sendMessage("𝐁𝐎 𝐒𝐇𝐘𝐀𝐃 𝐁𝐔𝐒𝐘 𝐇𝐀𝐈 𝐀𝐀𝐏 𝐌𝐄𝐑𝐄𝐊𝐎 𝐁𝐓𝐀 𝐃𝐎 𝐌𝐀𝐈 𝐔𝐍𝐊𝐎 𝐁𝐓𝐀 𝐃𝐔𝐍𝐆𝐀 😼😼", threadID);
+    if ((event.body.toLowerCase() == "Khan") || (event.body.toLowerCase() == "@Illıllı Aɭoŋɘ Illıllı")) {
+     return api.sendMessage("𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒 𝐀𝐁𝐇𝐈 𝐁𝐔𝐉𝐈 𝐇𝐀𝐈 𝐀𝐏𝐍𝐈 𝐖𝐈𝐅𝐄 𝐊𝐄 𝐒𝐀𝐓𝐇 𝐔𝐍𝐊𝐎 𝐃𝐈𝐒𝐓𝐔𝐑𝐁 𝐍𝐀 𝐊𝐑𝐎 𝐖𝐀𝐑𝐍𝐀 𝐌𝐔 𝐓𝐎𝐃 𝐃𝐔𝐍𝐆𝐈😡😡", threadID);
    };
 
-    if ((event.body.toLowerCase() == "") || (event.body.toLowerCase() == "")) {
-     return api.sendMessage("", threadID);
+    if ((event.body.toLowerCase() == "Ayesha") || (event.body.toLowerCase() =Ayesha ji="")) {
+     return api.sendMessage("AYESHA JI ABHI BUJI HAI MERE KHAN BOSS KE SATH AAP BAAD ME MENTION KR LENA🥱👈", threadID);
    };
   
    if
@@ -40,7 +40,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
 
 if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "kiss me")) {
-     return api.sendMessage("️𝐊𝐈𝐒 𝐊𝐇𝐔𝐒𝐇𝐈 𝐌𝐄 𝐌𝐀𝐈 𝐒𝐈𝐑𝐅 𝐀𝐏𝐍𝐈 𝐆𝐅 𝐊𝐎 𝐊𝐈𝐒𝐒 𝐊𝐀𝐄𝐓𝐀 𝐇𝐔___😁😅🤣", threadID);
+     return api.sendMessage("️𝐊𝐈𝐒 𝐊𝐇𝐔𝐒𝐇𝐈 𝐌𝐄 𝐌𝐀𝐈 𝐒𝐈𝐑𝐅 𝐀𝐏𝐍𝐄 𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒 𝐊𝐎 𝐊𝐈𝐒𝐒 𝐃𝐔𝐍𝐆𝐈 𝐓𝐔𝐌𝐊𝐎 𝐍𝐇𝐈 𝐒𝐀𝐌𝐉𝐇𝐄 𝐓𝐔𝐌-😡😡", threadID);
    };
 
   if ((event.body.toLowerCase() == "🤔") || (event.body.toLowerCase() == "🤔🤔")) {
@@ -59,32 +59,32 @@ if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "k
    };
 
    if ((event.body.toLowerCase() == "bot hume kon banaya") || (event.body.toLowerCase() == "tume kis ne banaya hai")) {
-     return api.sendMessage("🌸=आदि बाबू ne.", threadID);
+     return api.sendMessage("🌸="𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁 𝐍𝐄", threadID);
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon hai")) {
-     return api.sendMessage("🌸= आदि बाबू ", threadID);
+     return api.sendMessage("🌸= "𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁", threadID);
    };
 
    if ((event.body.toLowerCase() == "uff") || (event.body.toLowerCase() == "UFF")) {
-     return api.sendMessage("🌸==𝐇𝐘𝐄 𝐓𝐄𝐑𝐈 𝐔𝐅𝐅 𝐌𝐄𝐑𝐄 😍___ 𝐀𝐀𝐃𝐈 𝐁𝐀𝐁𝐔 ___😍 𝐁𝐎𝐒𝐒 𝐅𝐈𝐃𝐀 𝐇𝐎 𝐆𝐀𝐘𝐄_🙃😆😁", threadID);
+     return api.sendMessage("🌸== "𝐇𝐘𝐄 𝐓𝐄𝐑𝐈 𝐔𝐅𝐅 𝐌𝐄𝐑𝐄 😍___ 𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒___😍𝐏𝐀𝐑 𝐅𝐈𝐃𝐀 𝐇𝐎 𝐆𝐀𝐘𝐄_🙃😆😁", threadID);
    };
 
    if ((event.body.toLowerCase() == "call aao") || (event.body.toLowerCase() == "Call aao?")) {
-     return api.sendMessage("📞==🌸 𝐌𝐀𝐈 𝐂𝐀𝐋𝐋 𝐊𝐀𝐈𝐒𝐄 𝐀𝐎𝐎 𝐌𝐀𝐈𝐍 𝐓𝐎 𝐁𝐎𝐓 𝐍𝐀 _🥺👈🤸‍♂️", threadID);
+     return api.sendMessage("📞==🌸 "𝐌𝐀𝐈 𝐂𝐀𝐋𝐋 𝐊𝐀𝐈𝐒𝐄 𝐀𝐎𝐎 𝐌𝐀𝐈𝐍 𝐓𝐎 𝐁𝐎𝐓 𝐍𝐀 _🥺👈🤸‍♂️", threadID);
    };
 
 
-   if ((event.body.toLowerCase() == "❤️") || (event.body.toLowerCase() == "🙏")) {
-     return api.sendMessage("__🥰  𝐌𝐀𝐈𝐍 𝐓𝐎 𝐑𝐀𝐃𝐇𝐀 𝐑𝐀𝐍𝐈 𝐊𝐀 𝐃𝐄𝐄𝐖𝐀𝐍𝐀 𝐇𝐔 𝐏𝐘𝐀𝐑 𝐒𝐄 𝐁𝐎𝐋𝐎 𝐑𝐀𝐃𝐇𝐄 𝐑𝐀𝐃𝐇𝐄 😍 ❤️",threadID);
+   if ((event.body.toLowerCase() == "💔") || (event.body.toLowerCase() == "🙏")) {
+     return api.sendMessage("__🥰ALHAMDULILLAH AAPKA BRECUP HO GYA AB AAP SUKOON SE JI PAOGE CHLO PARTY DO AB🙂🙂",threadID);
    };
 
-if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalamu alaikum")) {
+if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam alaikum")) {
      return api.sendMessage("Walekum assalam", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Jay Shri Ram") || (event.body.toLowerCase() == "Jai shree ram") || (event.body.toLowerCase() == "ram")) {
-    return api.sendMessage("️KATTAR HINDU HI BOLATA HAI JAY SHRI RAM JAY JAY SHRI RAM ❤️ 😇 🤸", threadID);
+  if ((event.body.toLowerCase() == "Khan bhai") || (event.body.toLowerCase() == "Jai Khan bhai kese ho") || (event.body.toLowerCase() == "ram")) {
+    return api.sendMessage("️KHAN BOSS ABHI SO RHE HAI DISTURB NA KRO UNKO🤫❤️ 😇 🤸", threadID);
    };
 
    if ((event.body.toLowerCase() == "😐") || (event.body.toLowerCase() == "😐😐") || (event.body.toLowerCase() == "😐😐😐") || (event.body.toLowerCase() == "😐😐😐😐")) {
@@ -101,7 +101,7 @@ if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam
    };
 
    if ((event.body.toLowerCase() == "😝") || (event.body.toLowerCase() == "😝😝")) {
-     return api.sendMessage("️𝐉𝐀𝐁𝐀𝐍 𝐀𝐍𝐃𝐀𝐑 𝐊𝐀𝐑𝐎 𝐁𝐀𝐑𝐍𝐀 ___𝐀𝐀𝐃𝐈 __𝐁𝐀𝐁𝐔 __ 𝐒𝐄 𝐊𝐀𝐇 𝐊𝐄 𝐊𝐀𝐓𝐁𝐀 𝐃𝐔𝐍𝐆𝐀 🤸‍♂️😸.", threadID);
+     return api.sendMessage("️𝐉𝐀𝐁𝐀𝐍 𝐀𝐍𝐃𝐀𝐑 𝐊𝐀𝐑𝐎 𝐁𝐀𝐑𝐍𝐀 ___𝐊𝐇𝐀𝐍 __𝐁𝐎𝐒𝐒 __ 𝐒𝐄 𝐊𝐀𝐇 𝐊𝐄 𝐊𝐀𝐓𝐁𝐀 𝐃𝐔𝐍𝐆𝐀 🤸‍♂️😸", threadID);
    };
 
    if ((event.body.toLowerCase() == "main hu") || (event.body.toLowerCase() == "Jaan")) {
@@ -133,15 +133,15 @@ if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam
    };
 
    if ((event.body.toLowerCase() == "does the bot love you") || (event.body.toLowerCase() == "does the bot love you")) {
-     return api.sendMessage("🌸====『*★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛🥰आदि बाबू❤️ *★᭄ ཫ༄𒁍≛ 』====🌸__💙 Yes I love you and everyone so much", threadID);
+     return api.sendMessage("🌸====『*★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛🥰𝙺𝙷𝙰𝙽 𝚂𝙰𝙷𝙰𝙱❤️ *★᭄ ཫ༄𒁍≛ 』====🌸__💙 Yes I love you and everyone so much", threadID);
    };
 
    if ((event.body.toLowerCase() == "bot go to sleep") || (event.body.toLowerCase() == "bot goes to sleep")) {
-     return api.sendMessage("🌸====『*★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛आदि❤️बाबू❤ *★᭄ ཫ༄𒁍≛ 』====🌸__💙I'm a bot, you're the one who should go to sleep <3", threadID);
+     return api.sendMessage("🌸====『*★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍𝗞𝗛𝗔𝗡❤️𝗦𝗔𝗛𝗔𝗕❤ *★᭄ ཫ༄𒁍≛ 』====🌸__💙I'm a bot, you're the one who should go to sleep <3", threadID);
    };
 
-   if ((event.body.toLowerCase() == "+") || (event.body.toLowerCase() == "/")) {
-     return api.sendMessage("मेरी जान पहले # लगाओ", threadID);
+   if ((event.body.toLowerCase() == "Beta") || (event.body.toLowerCase() == "/")) {
+     return api.sendMessage("ji papa mujhe bulaya aapne🥰", threadID);
    };
 
    if ((event.body.toLowerCase() == "😶😶") || (event.body.toLowerCase() == "😶")) {
