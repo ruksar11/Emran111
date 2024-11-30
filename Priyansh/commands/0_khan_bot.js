@@ -48,7 +48,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️️️𝐓𝐢𝐫𝐜𝐡𝐢 𝐧𝐚𝐳𝐚𝐫𝐢𝐲𝐚 𝐦𝐨𝐫𝐢 𝐡𝐚𝐚𝐲𝐞 𝐡𝐚𝐚𝐲𝐞 𝐡𝐚𝐚𝐲𝐞 🙈", threadID);
    };
   
-  if ((event.body.toLowerCase() == "khan") || (event.body.toLowerCase() == "khan bhai")) {
+  if ((event.body.toLowerCase() == "Khan") || (event.body.toLowerCase() == "Illıllı Aɭoŋɘ Illıllı")) {
      return api.sendMessag("KHAN BOSS ABHI APNI WIFE AYESHA KE SATH BUJI HAI KIYA KAAM H MUJHE BTAO ME BOSS KO BTA DUNGI", threadID);
    };
 
