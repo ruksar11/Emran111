@@ -105,11 +105,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
   if ((event.body.toLowerCase() == "😉") || (event.body.toLowerCase() == "😉😉")) {
-     return api.sendMessage("️𝐀𝐀𝐍𝐊𝐇 𝐊𝐘𝐔 𝐌𝐀𝐀𝐑 𝐑𝐀𝐇𝐄 𝐇𝐎 𝐌𝐄 𝐁𝐇𝐔𝐓 𝐒𝐇𝐀𝐑𝐄𝐄𝐅 𝐇𝐔 🥺🤟", threadID);
+     return api.sendMessage("️𝐓𝐇𝐀𝐑𝐊𝐈 𝐈𝐍𝐒𝐀𝐍 𝐆𝐀𝐍𝐃𝐈 𝐍𝐙𝐀𝐑 𝐒𝐄 𝐀𝐀𝐍𝐊𝐇 𝐊𝐈𝐔𝐎 𝐌𝐀𝐀𝐑 𝐑𝐇𝐄 𝐇𝐎 𝐌𝐄 𝐁𝐎𝐓 𝐇𝐔 𝐋𝐀𝐃𝐊𝐈 𝐍𝐇𝐈🥺🤟", threadID);
    };
 
-  if ((event.body.toLowerCase() == "") || (event.body.toLowerCase() == "")) {
-     return api.sendMessage("", threadID);
+  if ((event.body.toLowerCase() == "Khan") || (event.body.toLowerCase() == "@Illıllı Aɭoŋɘ Illıllı")) {
+     return api.sendMessage("KHAN BOSS ABHI BUJI HAI APNI WIFE AYESHA KE SATH UNKO DISTURB NA KRO SAMJHE👹👹", threadID);
    };
   
    if ((event.body.toLowerCase() == "name kya h") || (event.body.toLowerCase() == "naam kya hai") || (event.body.toLowerCase() == "naam kiya hai")) {
