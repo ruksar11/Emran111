@@ -28,7 +28,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("𝐌𝐀𝐈 𝐂𝐀𝐋𝐋 𝐊𝐀𝐈𝐒𝐄 𝐀𝐎𝐎 𝐌𝐀𝐈 𝐓𝐎 𝐁𝐀𝐇𝐑𝐀 𝐇𝐔 😒👈", threadID);
    };
 
-   if ((event.body.toLowerCase() == "kya ho rha") || (event.body.toLowerCase() == "KYA KAR RHE HO")) {
+   if ((event.body.toLowerCase() == "kya ho rha") || (event.body.toLowerCase() == "Kya kar rhe ho")) {
     return api.sendMessage(" 𝐊𝐔𝐂𝐇 𝐍𝐀𝐇𝐈 𝐁𝐀𝐁𝐔 𝐀𝐀𝐏𝐒𝐄 𝐇𝐈 𝐓𝐎 𝐁𝐀𝐀𝐓 𝐊𝐀𝐑 𝐑𝐀𝐇𝐄 𝐇𝐀𝐌 🤨👈", threadID);
    };
 
