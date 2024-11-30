@@ -25,7 +25,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒 𝐀𝐁𝐇𝐈 𝐁𝐔𝐉𝐈 𝐇𝐀𝐈 𝐀𝐏𝐍𝐈 𝐖𝐈𝐅𝐄 𝐊𝐄 𝐒𝐀𝐓𝐇 𝐔𝐍𝐊𝐎 𝐃𝐈𝐒𝐓𝐔𝐑𝐁 𝐍𝐀 𝐊𝐑𝐎 𝐖𝐀𝐑𝐍𝐀 𝐌𝐔 𝐓𝐎𝐃 𝐃𝐔𝐍𝐆𝐈😡😡", threadID);
    };
 
-    if ((event.body.toLowerCase() == "Ayesha") || (event.body.toLowerCase() =Ayesha ji="")) {
+    if ((event.body.toLowerCase() == "Ayesha") || (event.body.toLowerCase() =="Ayesha ji")) {
      return api.sendMessage("AYESHA JI ABHI BUJI HAI MERE KHAN BOSS KE SATH AAP BAAD ME MENTION KR LENA🥱👈", threadID);
    };
   
