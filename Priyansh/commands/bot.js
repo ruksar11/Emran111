@@ -70,12 +70,12 @@ if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "k
      return api.sendMessage("🌸== "𝐇𝐘𝐄 𝐓𝐄𝐑𝐈 𝐔𝐅𝐅 𝐌𝐄𝐑𝐄 😍___𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒___😍𝐏𝐀𝐑 𝐅𝐈𝐃𝐀 𝐇𝐎 𝐆𝐀𝐘𝐄_🙃😆😁", threadID);
    };
 
-   if ((event.body.toLowerCase() == "call aao") || (event.body.toLowerCase() == "Call aao?")) {
+   if ((event.body.toLowerCase() == "call aao") || (event.body.toLowerCase() == "Call aao")) {
      return api.sendMessage("📞==🌸 "𝐌𝐀𝐈 𝐂𝐀𝐋𝐋 𝐊𝐀𝐈𝐒𝐄 𝐀𝐎𝐎 𝐌𝐀𝐈𝐍 𝐓𝐎 𝐁𝐎𝐓 𝐍𝐀 _🥺👈🤸‍♂️", threadID);
    };
 
 
-   if ((event.body.toLowerCase() == "💔") || (event.body.toLowerCase() == "🙏")) {
+   if ((event.body.toLowerCase() == "💔") || (event.body.toLowerCase() == "💔")) {
      return api.sendMessage("__🥰ALHAMDULILLAH AAPKA BRECUP HO GYA AB AAP SUKOON SE JI PAOGE CHLO PARTY DO AB🙂🙂",threadID);
    };
 
@@ -154,7 +154,7 @@ if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam
    mess = "{name}"
   
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("Bot") == 0)) {
-    var msg = {
+    var msg = { 
       body: `💙───${name}───💙
       
     ${rand}
