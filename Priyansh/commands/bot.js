@@ -40,7 +40,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
 
 if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "kiss me")) {
-     return api.sendMessage("️𝐊𝐈𝐒 𝐊𝐇𝐔𝐒𝐇𝐈 𝐌𝐄 𝐌𝐀𝐈 𝐒𝐈𝐑𝐅 𝐀𝐏𝐍𝐈 𝐆𝐅 𝐊𝐎 𝐊𝐈𝐒𝐒 𝐊𝐀𝐄𝐓𝐀 𝐇𝐔___😁😅🤣", threadID);
+     return api.sendMessage("️𝐊𝐈𝐒 𝐊𝐇𝐔𝐒𝐇𝐈 𝐌𝐄 𝐌𝐀𝐈 𝐒𝐈𝐑𝐅 𝐀𝐏𝐍𝐄 𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒 𝐊𝐎 𝐊𝐈𝐒𝐒 𝐊𝐀𝐑𝐓𝐈 𝐇𝐔___😁😅🤣", threadID);
    };
 
   if ((event.body.toLowerCase() == "🤔") || (event.body.toLowerCase() == "🤔🤔")) {
@@ -75,11 +75,11 @@ if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "k
    };
 
 
-   if ((event.body.toLowerCase() == "❤️") || (event.body.toLowerCase() == "🙏")) {
-     return api.sendMessage("__🥰  𝐌𝐀𝐈𝐍 𝐓𝐎 𝐑𝐀𝐃𝐇𝐀 𝐑𝐀𝐍𝐈 𝐊𝐀 𝐃𝐄𝐄𝐖𝐀𝐍𝐀 𝐇𝐔 𝐏𝐘𝐀𝐑 𝐒𝐄 𝐁𝐎𝐋𝐎 𝐑𝐀𝐃𝐇𝐄 𝐑𝐀𝐃𝐇𝐄 😍 ❤️",threadID);
+   if ((event.body.toLowerCase() == "🥱") || (event.body.toLowerCase() == "🥱")) {
+     return api.sendMessage("__🥱   𝐋𝐀𝐆𝐓𝐀 𝐇𝐀𝐈 𝐌𝐄𝐑𝐄 𝐁𝐀𝐁𝐔 𝐊𝐎 𝐍𝐈𝐍𝐃 𝐀𝐀 𝐑𝐇𝐈 𝐇𝐀𝐈 𝐀𝐀𝐎 𝐁𝐀𝐁𝐔 𝐒𝐔𝐋𝐀 𝐃𝐔  😹",threadID);
    };
 
-if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalamu alaikum")) {
+if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam alaikum")) {
      return api.sendMessage("Walekum assalam", threadID);
    };
 
@@ -133,11 +133,11 @@ if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam
    };
 
    if ((event.body.toLowerCase() == "does the bot love you") || (event.body.toLowerCase() == "does the bot love you")) {
-     return api.sendMessage("🌸====『*★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛🥰आदि बाबू❤️ *★᭄ ཫ༄𒁍≛ 』====🌸__💙 Yes I love you and everyone so much", threadID);
+     return api.sendMessage("🌸====『*★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛🥰𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒❤️ *★᭄ ཫ༄𒁍≛ 』====🌸__💙 Yes I love you and everyone so much", threadID);
    };
 
    if ((event.body.toLowerCase() == "bot go to sleep") || (event.body.toLowerCase() == "bot goes to sleep")) {
-     return api.sendMessage("🌸====『*★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛आदि❤️बाबू❤ *★᭄ ཫ༄𒁍≛ 』====🌸__💙I'm a bot, you're the one who should go to sleep <3", threadID);
+     return api.sendMessage("🌸====『*★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛𝐊𝐇𝐀𝐍❤️𝐁𝐎𝐒𝐒❤ *★᭄ ཫ༄𒁍≛ 』====🌸__💙I'm a bot, you're the one who should go to sleep <3", threadID);
    };
 
    if ((event.body.toLowerCase() == "+") || (event.body.toLowerCase() == "/")) {
