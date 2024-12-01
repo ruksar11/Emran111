@@ -40,7 +40,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
 
 if ((event.body.toLowerCase() == "chummi de") || (event.body.toLowerCase() == "kiss me")) {
-     return api.sendMessage("️𝐊𝐈𝐒 𝐊𝐇𝐔𝐒𝐇𝐈 𝐌𝐄 𝐌𝐀𝐈 𝐒𝐈𝐑𝐅 𝐀𝐏𝐍𝐄 𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒 𝐊𝐎 𝐊𝐈𝐒𝐒 𝐊𝐀𝐑𝐓𝐈 𝐇𝐔___😁😅🤣", threadID);
+     return api.sendMessage("️𝐊𝐈𝐒 𝐊𝐇𝐔𝐒𝐇𝐈 𝐌𝐄 𝐌𝐀𝐈 𝐒𝐈𝐑𝐅 𝐀𝐏𝐍𝐄 𝐊𝐇𝐀𝐍 𝐁𝐎𝐒𝐒 𝐊𝐎 𝐂𝐇𝐔𝐌𝐌𝐈 𝐃𝐄𝐓𝐈 𝐇𝐔___🥰💋🙈", threadID);
    };
 
   if ((event.body.toLowerCase() == "🤔") || (event.body.toLowerCase() == "🤔🤔")) {
