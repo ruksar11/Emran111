@@ -83,8 +83,8 @@ if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam
      return api.sendMessage("Walekum assalam", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Jay Shri Ram") || (event.body.toLowerCase() == "Jai shree ram") || (event.body.toLowerCase() == "ram")) {
-    return api.sendMessage("️KATTAR HINDU HI BOLATA HAI JAY SHRI RAM JAY JAY SHRI RAM ❤️ 😇 🤸", threadID);
+  if ((event.body.toLowerCase() == "🦖") || (event.body.toLowerCase() == "Jai shree ram") || (event.body.toLowerCase() == "ram")) {
+    return api.sendMessage("️MERI JAAN AAP INSHAN SE MGAR MACH KESE BAN GYE 🥹🥹  🤸", threadID);
    };
 
    if ((event.body.toLowerCase() == "😐") || (event.body.toLowerCase() == "😐😐") || (event.body.toLowerCase() == "😐😐😐") || (event.body.toLowerCase() == "😐😐😐😐")) {
